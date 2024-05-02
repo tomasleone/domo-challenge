@@ -186,6 +186,25 @@ footer ul li {
     text-decoration: none; 
 }
 
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.contact-icons {
+    margin-left: 20px; /* Ajustar la distancia entre el texto y los iconos */
+}
+  
+.contact-icons a {
+    margin-left: 15px; /* Ajustar la distancia entre los iconos */
+}
+  
+.contact-icons i {
+    font-size: 20px; /* Tamaño de los iconos */
+}
+  
+
   
 
   
