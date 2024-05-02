@@ -2,7 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
+
+body {
+    font-family: 'Circular Std', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Circular Std', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif; 
+}
+
 
 .navbar{
     background-color: #283345;
@@ -10,33 +24,49 @@
 
 #intro {
     background-color: #283345;
-    min-height: 400px; /* Cambiar la altura mínima para que se ajuste mejor al contenido */
+    min-height: 400px; 
 }
 
 #intro img {
     max-width: 100%;
     height: auto;
     margin-left: 0;
-    margin-right: 0; /* Eliminar el margen derecho */
+    margin-right: 0; 
 }
+
+p.lead {
+    color: #6c757d; 
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid #6c757d; 
+    color: #6c757d; 
+}
+
+.btn-transparent:hover {
+    background-color: #3871FF; 
+    color: #fff; 
+}
+
 
 
 .card-title {
-    color: #000; /* Cambiar el color del texto del h5 a negro */
+    color: #000; 
 }
   
 .card-text {
-    color: #6c757d; /* Cambiar el color del texto del p a un gris medio */
+    color: #6c757d; 
 }
 
 .card-container {
-    padding-left: 80px; /* Agregar espacio al lado izquierdo */
-    padding-right: 80px; /* Agregar espacio al lado derecho */
+    padding-left: 80px; 
+    padding-right: 80px; 
 }
 
   
 .card {
-    margin-bottom: 20px; /* Añadir un margen inferior entre las tarjetas */
+    margin-bottom: 20px; 
 }
 
 
@@ -45,36 +75,40 @@
 }
 
 .card-title {
-    font-size: 16px; /* Ajustar el tamaño del título de la tarjeta */
+    font-size: 16px; 
 }
 
 .card-text {
-    line-height: 1.6; /* Añadir más espacio entre líneas en el párrafo */
-    margin-top: 10px; /* Añadir un poco de margen superior */
-    margin-bottom: 10px; /* Añadir un poco de margen inferior */
+    line-height: 1.6; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
 }
 
 
 .card {
-    display: flex; /* Usar flexbox para alinear elementos */
-    flex-direction: column; /* Colocar los elementos en columna */
-    justify-content: space-between; /* Distribuir el espacio verticalmente */
-    height: 100%; /* Ajustar la altura de la tarjeta */
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%; 
 }
 
 .card-body {
-    flex-grow: 1; /* Permitir que el cuerpo de la tarjeta crezca */
+    flex-grow: 1; 
 }
 
+
+#services p {
+    color: #B5A8A8;
+}
 
 
 #technologies {
     background-color: #3871FF;
-    margin-top: -20px; /* Eliminar el margen superior */
-    padding-top: 100px; /* Aumentar el espacio superior */
-    padding-bottom: 100px; /* Aumentar el espacio inferior */
-    height: 1800px; /* Ajustar la altura mínima del contenedor */
-    height: fit-content; /* Permitir que la altura se ajuste automáticamente */
+    margin-top: -20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 1800px; 
+    height: fit-content; 
 }
 
 
@@ -84,27 +118,74 @@
 
 
 #clients .row img {
-    width: 100px; /* Ajustar el ancho de todos los logos */
+    width: 120px; 
 }
 
 
-.card {
-    border: none; /* Eliminar el borde de las cards */
+.text-white {
+    color: white; 
 }
 
-.card-text {
-    text-align: left; /* Alinear el texto a la izquierda */
-}
-
-.phone-image {
-    margin-left: 20px; /* Agregar margen a la izquierda para separar la imagen del texto */
+.social-icons i {
+    color: #B5A8A8; 
 }
 
 
+footer {
+    background-color: #283345;
+    color: white;
+    padding: 40px 0;
+}
 
+footer h5 {
+    color: #B5A8A8; 
+}
 
+footer p {
+    color: #B5A8A8; 
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
   
-  
+
+
+.nav-link.active {
+    background-color: #3871FF; 
+    color: #fff;
+    transition: background-color 0.3s ease; 
+    border-radius: 5px;
+}
+
+
+.credits {
+    font-size: 12px; 
+    text-align: center; 
+    font-style: italic; 
+    margin-top: 18px; 
+    
+}
+
+.credits a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
   
 
   

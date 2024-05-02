@@ -6,32 +6,33 @@
   <title>Domo Challenge</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Circular+Std:300,400,700">
   <link rel="stylesheet" href="styles.css">
  
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand" href="#">Compleet Labs</a>
+      <a class="navbar-brand" href="#">compleet labs</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#intro">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Technology</a>
+            <a class="nav-link" href="#technologies">Technology</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Case Studies</a>
+            <a class="nav-link" href="#clients">Case Studies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Hire Us</a>
@@ -46,10 +47,12 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <h1 class="display-4 text-left">We build beautiful and reliable web solutions</h1>
-          <p class="lead text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum tortor ut felis varius efficitur.</p>
-          <div class="d-flex justify-content-start">
-            <button type="button" class="btn btn-light mr-3">Learn More</button>
-            <button type="button" class="btn btn-light">Our Projects</button>
+          <p class="lead text-left">We strongly believe that communication, trust and transparency
+            are the essential elements of successful business relationship.
+            Ready for the journey?</p>
+            <div class="d-flex justify-content-start">
+              <button type="button" class="btn btn-transparent mr-3">Learn More</button>
+              <button type="button" class="btn btn-transparent">Our Projects <img src="img/flecha.png" alt="Flecha hacia la derecha" style="width: 1em; height: 1em; color: #6c757d;"></button>
           </div>
         </div>
         <div class="col-lg-6">
@@ -58,13 +61,13 @@
       </div>
     </div>
 
-    <div class="row mt-5">
+    <div id="services" class="row mt-5">
       <div class="col-lg-12 text-center">
-        <h2>Our Services</h2>
-        <p>We feel very strong about our skills when it comes to planning, designing and coding applications. Here is what we love to do!</p>
+          <h2>Our Services</h2>
+          <p>We feel very strong about our skills when it comes to planning,<br> designing and coding applications. Here is what we love to do!</p>
       </div>
-    </div>
-
+  </div>
+  
     <div class="card-container">
       <div class="row mt-3">
         <div class="col-md-4">
@@ -73,7 +76,7 @@
               <i class="fas fa-file-alt fa-4x text-primary mb-4"></i>
               <h5 class="card-title">Business & Product Concept</h5>
               <p class="card-text">Analyse business and product concepts at Start-up Workshops or Ongoing Poryects´ Audits and prepare a viable and sensible product roadmap for achieving a perfect market fit.</p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="#" class="btn btn-transparent mr-3">Learn More</a>
             </div>
           </div>
         </div>
@@ -83,7 +86,7 @@
               <i class="fas fa-laptop fa-4x text-primary mb-4"></i>
               <h5 class="card-title">Web & Development Development</h5>
               <p class="card-text">Plan, develop and test high-quality web-aplications using AngularJS, NodeJS, JavaScript, Typescript, HTML5 and SASS/CSS3 frameworks and native mobile languages.</p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="#" class="btn btn-transparent mr-3">Learn More</a>
             </div>
           </div>
         </div>
@@ -93,7 +96,7 @@
               <i class="fas fa-pencil-ruler fa-4x text-primary mb-4"></i>
               <h5 class="card-title">UX & UI Design</h5>
               <p class="card-text">Sketch information architecture and simple mock-ups, convert them into clickable prototypes and finish with usable interface designs to deliver a good and reliable user experience.</p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="#" class="btn btn-transparent mr-3">Learn More</a>
             </div>
           </div>
         </div>
@@ -104,7 +107,6 @@
   <section id="technologies" style="background-color: #3871FF;" class="py-5">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Primer div -->
             <div class="col-md-6 text-left text-white">
                 <div class="d-flex flex-column justify-content-center align-items-center">
                     <h3 class="mb-4">We use cutting edge technology</h3>
@@ -116,10 +118,9 @@
                       augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
-            <!-- Segundo div -->
-            <div class="col-md-6 text-center text-white"> <!-- Cambio text-right a text-center -->
-              <!-- Iconos -->
-              <div class="row justify-content-center"> <!-- Cambio justify-content-end a justify-content-center -->
+            
+            <div class="col-md-6 text-center text-white"> 
+              <div class="row justify-content-center"> 
                   <div class="col-4">
                       <i class="fab fa-html5 fa-3x"></i>
                   </div>
@@ -127,7 +128,7 @@
                       <i class="fab fa-css3-alt fa-3x"></i>
                   </div>
               </div>
-              <div class="row mt-4 justify-content-center"> <!-- Cambio justify-content-end a justify-content-center -->
+              <div class="row mt-4 justify-content-center"> 
                   <div class="col-4">
                       <i class="fab fa-sass fa-3x"></i>
                   </div>
@@ -135,7 +136,7 @@
                       <i class="fab fa-js fa-3x"></i>
                   </div>
               </div>
-              <div class="row mt-4 justify-content-center"> <!-- Cambio justify-content-end a justify-content-center -->
+              <div class="row mt-4 justify-content-center"> 
                   <div class="col-4">
                       <i class="fab fa-angular fa-3x"></i>
                   </div>
@@ -159,39 +160,81 @@
             <div class="col-2"><img src="img/itnewafrica.svg" alt="Its New Africa Logo" class="img-fluid"></div>
         </div>
     </div>
-</section>
 
-<section id="contact" class="py-5">
+      <div class="row mt-5 justify-content-center">
+        <div class="col-md-6">
+            <div class="card text-left mb-4" style="background-color: #3871FF; max-width: 400px; margin: 0 auto; height: 250px;"> 
+                <div class="card-body">
+                    <h5 class="card-title text-white">Get in touch with us</h5>
+                    <p class="card-text text-white" style="margin-bottom: 10px;">Maecenas sed diam eget risus varius blandit sit amet non magna</p>
+                    <button class="btn btn-light">Hire us</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-left mb-4" style="background-color: #3871FF; max-width: 400px; margin: 0 auto; height: 250px;"> 
+                <div class="card-body">
+                    <h5 class="card-title text-white">Our Projects</h5>
+                    <p class="card-text text-white" style="margin-bottom: 10px;">Maecenas sed diam eget risus varius blandit sit amet non magna</p>
+                    <button class="btn btn-light">See Projects</button>
+                </div>
+                <div class="phone-image" style="margin-left: auto;">
+                    <img src="img/celular.jpeg" alt="Phone Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <footer id="about" style="background-color: #283345; color: white;" class="py-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="card text-left mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">Get in touch with us</h5>
-                        <p class="card-text">Maecenas sed diam eget risus varius blandit sit amet non magna</p>
-                        <button class="btn btn-primary">Hire us</button>
-                    </div>
-                </div>
+              <h5 class="text-white">Compleet Labs</h5>
+              <p>Fusce dapibus, tellus ac cursus commodo, tortor <br> mauris condimentum nibh, ut fermentum massa <br> justo sit amet risus. Donec ullamcorper nulla.</p>
+              <div class="social-icons">
+                  <i class="fab fa-twitter"></i>
+                  <i class="fas fa-globe"></i>
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+              </div>
             </div>
+        
             <div class="col-md-6">
-                <div class="card text-left mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">Our Projects</h5>
-                        <p class="card-text">Maecenas sed diam eget risus varius blandit sit amet non magna</p>
-                        <button class="btn btn-primary">See Projects</button>
+                <div class="row">
+                    <div class="col">
+                        <h5>Sitemap</h5>
+                        <ul>
+                            <li>Home</li>
+                            <li>Technology</li>
+                            <li>Services</li>
+                            <li>About</li>
+                        </ul>
                     </div>
-                    <div class="phone-image">
-                        <img src="phone_image.png" alt="Phone Image" class="img-fluid">
+                    <div class="col">
+                        <h5>Case Studies</h5>
+                        <ul>
+                            <li>Swiss Airlines</li>
+                            <li>Google</li>
+                            <li>Apple</li>
+                            <li>Nike</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>Contact</h5>
+                        <ul>
+                            <li>Jobs</li>
+                            <li>Hire Us</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+  </footer>
 
-
-
-
+  <p class="credits"> <a href="https://linkedin.com/in/leonetomas" target="_blank" id="credit-link">DOMO Challenge creado por Leone Tomas ©</a></p>
 
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
